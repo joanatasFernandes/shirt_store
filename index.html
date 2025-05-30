@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Loja de Roupas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
@@ -31,19 +34,19 @@
             <h3>Nossos Produtos em Destaque</h3>
             <div class="product-grid">
                 <div class="product-item">
-                    <img src="imagens/17247175570d8fa4fb9218e6e6b30cdc453d80ca42_thumbnail_405x552.jpg" alt="Camiseta Básica">
+                    <div class="product-images-hover" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                        <img src="imagens/1.jpg.webp" alt="Camisa Polo Azul">
+                        <img src="imagens/2.jpg.webp" alt="Camisa Polo Vermelha">
+                    </div>
                     <h4>Camiseta Básica</h4>
                     <p>R$ 49,90</p>
                     <button>Adicionar ao Carrinho</button>
                 </div>
                 <div class="product-item">
-                    <img src="imagens/7569E31191AF00673CAA4BB88BA739DF_thumbnail_220x293.webp" alt="Camiseta Básica">
-                    <h4>Camiseta Básica</h4>
-                    <p>R$ 49,90</p>
-                    <button>Adicionar ao Carrinho</button>
-                </div>
-                <div class="product-item">
-                    <img src="https://via.placeholder.com/200x250" alt="Calça Jeans Skinny">
+                    <div class="product-images-hover" onmouseenter="startImageRotation(this)" onmouseleave="stopImageRotation(this)">
+                     <img src="imagens/calça1.jfif" alt="Calça Jeans Skinny">
+                     <img src="imagens/calça2.jfif" alt="Calça Jeans Skinny">
+                    </div>                      
                     <h4>Calça Jeans Skinny</h4>
                     <p>R$ 129,90</p>
                     <button>Adicionar ao Carrinho</button>
@@ -60,7 +63,7 @@
                     <p>R$ 249,90</p>
                     <button>Adicionar ao Carrinho</button>
                 </div>
-            </div>
+            </div>           
         </section>
     </main>
 
