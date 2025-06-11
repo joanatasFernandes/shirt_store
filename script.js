@@ -1,7 +1,7 @@
 
 function startImageRotation(container) {
     const images = container.querySelectorAll("img");
-    let index = 0;
+    let index = 1;
 
     images.forEach(img => img.classList.remove("active"));
     images[0].classList.add("active");
