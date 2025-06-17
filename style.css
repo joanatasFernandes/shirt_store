@@ -10,49 +10,59 @@ body {
 
 .camisas-grid {
     background-image: url("imagens/slide-image/aguas3.jpeg");
-    background-size: cover; /* Ensures the image covers the entire header */
-    background-position: center; /* Centers the image */
-    color: white; /* Sets text color to white for better contrast */
-    text-align: center; /* Centers the text within the header */
-    padding: 600px 0; /* Adds some vertical padding to make the header taller */
-    position: relative; 
-   
+    background-size: cover;
+    /* Ensures the image covers the entire header */
+    background-position: center;
+    /* Centers the image */
+    color: white;
+    /* Sets text color to white for better contrast */
+    text-align: center;
+    /* Centers the text within the header */
+    padding: 600px 0;
+    /* Adds some vertical padding to make the header taller */
+    position: relative;
+
 }
+
 /* Cabeçalho */
 header {
-   
+
     background-image: url("imagens/pexels-sebastiaan9977-1097456\ \(1\).jpg");
-    background-size: cover; /* Ensures the image covers the entire header */
-    background-position: center; /* Centers the image */
-    color: white; /* Sets text color to white for better contrast */
-    text-align: center; /* Centers the text within the header */
-    padding: 60px 0; /* Adds some vertical padding to make the header taller */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 60px 0;
     position: relative;
     width: 100%;
-    height: 50vh;
-    overflow: hidden; /* Replace with your image path */
+    height: 50px;
+ 
+    
 }
 
-
-
 header::before {
-  content: ''; /* Essencial para pseudo-elementos */
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(99, 59, 59);  /* Cor da sobreposição (pode ser qualquer cor) */
-  opacity: 0.3; /* Ajuste este valor entre 0 (totalmente transparente) e 1 (totalmente opaco) */
-  z-index: 1; /* Garante que a sobreposição fique acima da imagem, mas abaixo do conteúdo */
+    content: '';
+    /* Essencial para pseudo-elementos */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(99, 59, 59);
+    /* Cor da sobreposição (pode ser qualquer cor) */
+    opacity: 0.3;
+    /* Ajuste este valor entre 0 (totalmente transparente) e 1 (totalmente opaco) */
+    z-index: 1;
+    /* Garante que a sobreposição fique acima da imagem, mas abaixo do conteúdo */
 }
 
 /* Opcional: Estilo para o conteúdo do header, para que fique acima da sobreposição */
 header * {
-  position: relative;
-  z-index: 2;
-  color: white;
-  transition: color 0.3s ease; /* Exemplo: cor do texto para contraste */
+    position: relative;
+    z-index: 2;
+    color: white;
+    transition: color 0.3s ease;
+    /* Exemplo: cor do texto para contraste */
 }
 
 nav {
@@ -65,9 +75,9 @@ nav {
 }
 
 nav h1 {
-   text-justify: auto;
-   text-rendering: auto;
-   text-align: right;
+    text-justify: auto;
+    text-rendering: auto;
+    text-align: right;
     margin: 0;
     font-size: 2.0rem;
     color: white;
@@ -93,7 +103,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffd700; /* Dourado */
+    color: #ffd700;
+    /* Dourado */
 }
 
 /* Seção Hero */
@@ -156,7 +167,7 @@ nav ul li a:hover {
     border-radius: 8px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
 
@@ -172,7 +183,7 @@ nav ul li a:hover {
 }
 
 .product-images-hover img {
-    
+
     position: absolute;
     width: 100%;
     height: 100%;
@@ -184,7 +195,7 @@ nav ul li a:hover {
 }
 
 .product-images-hover img:first-child {
-    opacity: 1; 
+    opacity: 1;
 }
 
 .product-images-hover img.active {
@@ -206,7 +217,8 @@ nav ul li a:hover {
 }
 
 .product-item button {
-    background-color: #4CAF50; /* Verde */
+    background-color: #4CAF50;
+    /* Verde */
     color: white;
     border: none;
     padding: 0.8rem 1.5rem;
@@ -227,7 +239,10 @@ footer {
     text-align: center;
     padding: 1.5rem 0;
     margin-top: 3rem;
+
 }
 
-/* Css Form Login*/
 
+
+
+/* Css Form Login*/
